@@ -1,0 +1,80 @@
+body {
+	background-color: var(--primary-color) !important;
+}
+
+.about-me-title {
+	text-align: center;
+}
+
+.personal-info {
+	width: 60%;
+}
+.personal-info .title {
+	margin: 2rem;
+	margin-left: 0;
+}
+
+.about-me-body {
+	display: flex;
+	padding: 0.5rem 4rem;
+	align-items: center;
+	width: 100vw;
+}
+
+.col-lg-2 {
+	vertical-align: middle !important;
+}
+.col-lg-4 {
+	vertical-align: middle !important;
+	font-weight: 500;
+}
+
+.my-stats {
+	display: flex;
+	flex-direction: column;
+}
+
+.row-1, .row-2 {
+	display: flex;
+}
+
+.card {
+	margin: 1rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--tertiary-color) !important;
+	background-color: var(--primary-color) !important;
+	width: 50%;
+}
+
+
+
+@media screen and (max-width: 992px) and (min-width: 392px) {
+	.about-me-body {
+		flex-direction: column !important;
+	}
+}
+@media screen and (max-width: 392px) {
+	.about-me-body {
+		flex-direction: column !important;
+	}
+	.row-1, .row-2 {
+		flex-direction: column !important;
+	}
+	.card {
+		width: 90%;
+	}
+}
+@media screen and (min-width: 992px) {
+	.col-lg-2 {
+		padding-left: 0 !important;
+	}
+	.col-lg-4 {
+		padding-right: 0 !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.personal-info {
+		width: 80vw;
+		margin-left: -2rem;
+	}
+}

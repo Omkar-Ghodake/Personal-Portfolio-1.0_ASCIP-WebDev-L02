@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Redressed&display=swap');
+
+:root {
+	--primary-color: #fff;
+	--secondary-color: #000;
+	--tertiary-color: #72B626;
+	--quaternary-color: #666666;
+	--quinary-color: #EEEEEE;
+}
+
+.dark-theme {
+	--primary-color: rgba(0, 0, 0, 0.931);
+	--secondary-color: #fff;
+	--tertiary-color: #ffb400;
+	--quaternary-color: #EEEEEE;
+	--quinary-color: #666666;
+}
+
+body {
+	height: 100vh;
+	color: var(--quaternary-color) !important;
+}
+
+.break-word {
+	word-wrap: break-word;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.change-color-tertiary {
+	color: var(--tertiary-color) !important;
+}
+
+.fa-bars {
+	color: var(--tertiary-color);
+}
+
+.logo {
+	width: 9rem;
+}
+
+.navbar-toggler-icon {
+	background-color: var(--tertiary-color) !important;
+	color: #000;
+}
+
+.theme-icon-contain {
+	width: 100%;
+}
+
+.theme-icon {
+	cursor: pointer;
+	min-height: 1.9rem;
+	max-height: 1.9rem;
+	background-color: var(--quinary-color);
+	border-radius: 1rem;
+	padding: 5px;
+}
+
+.nav-link {
+	color: var(--quaternary-color) !important;
+	background-color: var(--quinary-color);
+	border: 1px solid var(--quinary-color);
+	margin: 1rem 3rem;
+	border-radius: 3rem;
+	width: 6rem;
+	text-align: center;
+}
+.current {
+	color: var(--primary-color) !important;
+	background-color: var(--tertiary-color);
+	border: 1px solid var(--tertiary-color);
+}
+.nav-link:hover {
+	background-color: var(--primary-color);
+}
+.current:hover {
+	color: var(--tertiary-color) !important;
+	background-color: var(--primary-color) !important;
+}
+
+
+
+
+
+
+/* sun/moon icon */
+@media screen and (max-width: 992px) {
+	.theme-icon {
+		margin-left: 5.2rem;
+		text-align: left;
+	}
+}
+@media screen and (min-width: 992px) {
+	.theme-icon {
+		margin: auto;
+	}
+}
+
+
+

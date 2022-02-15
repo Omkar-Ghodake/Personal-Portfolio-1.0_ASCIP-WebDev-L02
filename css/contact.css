@@ -1,0 +1,45 @@
+body {
+	background-color: var(--primary-color) !important;
+}
+
+.contact-title {
+	display: flex;
+	justify-content: center;
+}
+.change-color-tertiary {
+	color: var(--tertiary-color) !important;
+}
+
+.card {
+	padding-top: 0.5rem;
+	margin: auto;
+	margin-bottom: 1rem;
+	height: 8rem !important;
+	width: 20rem !important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: var(--primary-color) !important;
+}
+
+.card-icon a, .card-title a{
+	color: var(--tertiary-color);
+}
+.card-icon a:hover, .card-title a:hover{
+	color: var(--quaternary-color);
+}
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 512px) {
+	.card {
+		height: 9.5rem !important;
+		width: 16rem !important;
+	}
+}
+@media screen and (max-width: 512px) {
+	.card {
+		height: 10.5rem !important;
+		width: 11rem !important;
+	}
+}
