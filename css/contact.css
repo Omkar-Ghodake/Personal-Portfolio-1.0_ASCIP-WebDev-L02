@@ -5,6 +5,7 @@ body {
 .contact-title {
 	display: flex;
 	justify-content: center;
+	font-family: 'Raleway', sans-serif;
 }
 .change-color-tertiary {
 	color: var(--tertiary-color) !important;
@@ -19,13 +20,15 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	background-color: var(--primary-color) !important;
+	border: 1px solid var(--tertiary-color) !important;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .card-icon a, .card-title a{
 	color: var(--tertiary-color);
 }
 .card-icon a:hover, .card-title a:hover{
-	color: var(--quaternary-color);
+	color: var(--senary-color);
 }
 
 

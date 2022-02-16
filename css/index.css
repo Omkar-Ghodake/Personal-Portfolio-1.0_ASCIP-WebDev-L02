@@ -74,6 +74,7 @@ body {
 	padding-left: 8px;
 	font-size: small;
 	color: var(--quaternary-color);
+	font-family: 'Montserrat', sans-serif;	
 }
 .fa-angles-right:hover + .more-btn, .more-btn:hover {
 	color: var(--quinary-color);
@@ -88,11 +89,9 @@ body {
 }
 .my-field {
 	font-family: 'Raleway', sans-serif;
-
 }
 .my-description {
 	font-family: 'Montserrat', sans-serif;
-
 }
 .my-field, .my-description {
 	color: var(--quaternary-color);

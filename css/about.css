@@ -4,6 +4,7 @@ body {
 
 .about-me-title {
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 .personal-info {
@@ -12,6 +13,7 @@ body {
 .personal-info .title {
 	margin: 2rem;
 	margin-left: 0;
+	font-family: 'Raleway', sans-serif;
 }
 
 .about-me-body {
@@ -19,6 +21,7 @@ body {
 	padding: 0.5rem 4rem;
 	align-items: center;
 	width: 100vw;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .col-lg-2 {

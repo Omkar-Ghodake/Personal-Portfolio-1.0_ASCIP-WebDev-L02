@@ -6,6 +6,7 @@
 	--tertiary-color: #72B626;
 	--quaternary-color: #666666;
 	--quinary-color: #EEEEEE;
+	--senary-color: #67992e;
 }
 
 .dark-theme {
@@ -14,6 +15,7 @@
 	--tertiary-color: #ffb400;
 	--quaternary-color: #EEEEEE;
 	--quinary-color: #666666;
+	--senary-color: #d89700;
 }
 
 body {
@@ -67,15 +69,19 @@ a {
 	border-radius: 3rem;
 	width: 6rem;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
+
 .current {
 	color: var(--primary-color) !important;
 	background-color: var(--tertiary-color);
 	border: 1px solid var(--tertiary-color);
 }
+
 .nav-link:hover {
 	background-color: var(--primary-color);
 }
+
 .current:hover {
 	color: var(--tertiary-color) !important;
 	background-color: var(--primary-color) !important;
@@ -93,11 +99,9 @@ a {
 		text-align: left;
 	}
 }
+
 @media screen and (min-width: 992px) {
 	.theme-icon {
 		margin: auto;
 	}
 }
-
-
-
