@@ -82,8 +82,11 @@ h5 a {
 	width: 3rem;
 }
 
-.card-body h5{
+.card-body h5 {
 	vertical-align: middle;
+}
+.card-body h5 a:hover {
+	color: var(--senary-color) !important;
 }
 
 
