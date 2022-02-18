@@ -1,6 +1,3 @@
-body {
-	background-color: var(--primary-color) !important;
-}
 
 .contact-title {
 	display: flex;
@@ -19,9 +16,13 @@ body {
 	width: 20rem !important;
 	text-align: center;
 	vertical-align: middle;
-	background-color: var(--primary-color) !important;
 	border: 1px solid var(--tertiary-color) !important;
+	border-radius: 12px !important;
 	font-family: 'Montserrat', sans-serif;
+	background: var(--card-bg) !important;
+	box-shadow: 0 4px 30px var(--card-boxShadow) !important;
+	backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
+	-webkit-backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
 }
 
 .card-icon a, .card-title a{
