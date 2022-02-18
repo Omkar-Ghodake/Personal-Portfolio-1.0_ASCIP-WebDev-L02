@@ -8,10 +8,13 @@
 	color: var(--tertiary-color) !important;
 }
 
+.mb-9 {
+	margin-bottom: 0.8rem !important;
+}
+
 .card {
 	padding-top: 0.5rem;
 	margin: auto;
-	margin-bottom: 1rem;
 	height: 8rem !important;
 	width: 20rem !important;
 	text-align: center;
@@ -36,6 +39,10 @@
 .card-icon a:hover, .card-title a:hover{
 	color: var(--senary-color);
 }
+.card-body p{
+	word-break: break-all !important;
+}
+
 
 
 
@@ -44,6 +51,14 @@
 	.card {
 		height: 9.5rem !important;
 		width: 16rem !important;
+	}
+	.card-body p {
+		font-size: 14.5px !important;
+	}
+}
+@media screen and (max-width: 512px) {
+	.card-body p {
+		font-size: 14px !important;
 	}
 }
 @media screen and (max-width: 512px) {
