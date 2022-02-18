@@ -5,6 +5,12 @@
 
 .personal-info {
 	width: 60%;
+	background-color: #191c24 !important;
+	color: #565b76 !important;
+	border-radius: 12px;
+}
+.personal-info h4 {
+	font-weight: bold;
 }
 .personal-info .title {
 	margin: 2rem;

@@ -23,6 +23,11 @@
 	box-shadow: 0 4px 30px var(--card-boxShadow) !important;
 	backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
 	-webkit-backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
+	transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card-icon a, .card-title a{

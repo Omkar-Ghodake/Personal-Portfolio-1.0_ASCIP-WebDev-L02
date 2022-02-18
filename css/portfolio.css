@@ -48,6 +48,7 @@ th, td {
 a h5 {
 	color: var(--tertiary-color) !important;
 }
+
 a h5:hover {
 	color: var(--senary-color) !important;
 }
@@ -116,8 +117,9 @@ a h5:hover {
 
 .skills {
 	padding: 1rem;
-	border-radius: 11px;
-	background-color: #191c24;
+	border-radius: 12px;
+	background-color: #191c24 !important;
+	color: #565b76 !important;
 }
 
 .card {
@@ -133,6 +135,12 @@ a h5:hover {
 	box-shadow: 0 4px 30px var(--card-boxShadow) !important;
 	backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
 	-webkit-backdrop-filter: blur(--bd-filter-blur) saturate(180%) !important;
+	transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 
