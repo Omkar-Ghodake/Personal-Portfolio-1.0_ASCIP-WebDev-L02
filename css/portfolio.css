@@ -125,6 +125,7 @@ a h5:hover {
 .card {
 	text-align: center;
 	width: 30% !important;
+	height: 9rem;
 	padding: 10px;
 	padding-bottom: 0;
 	margin: auto;
@@ -158,36 +159,55 @@ a h5:hover {
 
 
 
-@media screen and (max-width: 392px) {
-	.progress {
-		width: 50%;
-	}
 
+@media screen and (max-width: 468px) {
 	.subject-name {
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	.card {
-		width: 45% !important;
+		width: 60%;
 	}
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
+	.card {
+		width: 45% !important;
+	}
 	.subject-name {
-		width: 50%;
+		width: 55%;
 	}
 }
+
 
 @media screen and (max-width: 768px) {
 	.card {
 		width: 40% !important;
+		height: 10rem;
+	}
+}
+
+@media screen and (max-width: 522px) {
+	.card {
+		height: 11rem;
+	}
+	.card-body h5 {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 424px) and (min-width: 372px) {
+	.card-body h5 {
+		font-size: 1rem;
 	}
 }
 
 @media screen and (max-width: 372px) {
 	.card {
 		width: 100% !important;
+		height: 9rem;
+	}
+	.progress {
+		width: 50%;
+	}
+	.subject-name {
+		width: 50%;
+		font-size: small;
 	}
 }
