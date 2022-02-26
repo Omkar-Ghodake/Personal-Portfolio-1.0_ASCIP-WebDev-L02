@@ -15,7 +15,7 @@ if (localThemeData == "light") {
 }
 else if (localThemeData == "dark") {
 	themeIcon.src = "images/sun.png";
-	favicon.setAttribute("href", "images/favicon-yellow.png");
+	favicon.setAttribute("href", "images/favicon-purple.png");
 	document.body.classList.add("dark-theme");
 }
 

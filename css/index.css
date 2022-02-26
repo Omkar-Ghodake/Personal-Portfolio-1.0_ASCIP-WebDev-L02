@@ -1,3 +1,13 @@
+html {
+	cursor: url("../images/ezgif.com-gif-maker.gif"), auto !important;
+}
+a {
+	cursor: url("../images/aero_arrow.ani"), auto !important;
+}
+button {
+	cursor: url("../images/aero_arrow.ani"), auto !important;
+}
+
 .my-image-img {
 	height: 25rem;
 	box-shadow: 5px 10px 10px rgb(0 0 0 / 0.2);

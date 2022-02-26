@@ -1,6 +1,7 @@
 let themeIcon = document.querySelector(".theme-icon");
 let myImage = document.querySelector(".my-image-img");
 let favicon = document.querySelector("#favicon");
+let whole = document.getElementsByTagName('html');
 
 
 if (localStorage.getItem("theme") == null) {
@@ -17,7 +18,7 @@ if (localThemeData == "light") {
 else if (localThemeData == "dark") {
 	themeIcon.src = "images/sun.png";
 	myImage.src = "images/my-image-black.png";
-	favicon.setAttribute("href", "images/favicon-yellow.png");
+	favicon.setAttribute("href", "images/favicon-purple.png");
 	document.body.classList.add("dark-theme");
 
 }

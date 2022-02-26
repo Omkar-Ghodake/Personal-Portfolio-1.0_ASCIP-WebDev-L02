@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Redressed&display=swap');
 
+
+
 :root {
 	--primary-color: #ffffff;
 	--secondary-color: #000000;
@@ -29,6 +31,8 @@
 	--card-border: rgba(255, 255, 255, 0.125);
 	--bd-filter-blur: 16px;
 	--bd-filter-saturate: 180%;
+
+	--cursor-url: "../images/cursor-purple.png";
 }
 
 body {
