@@ -102,6 +102,11 @@ a {
 	background-color: var(--primary-color) !important
 }
 
+/* common css  */
+.change-color-tertiary {
+	color: var(--tertiary-color) !important
+}
+
 @media screen and (max-width:992px) {
 	.theme-icon {
 		margin-left: 5.2rem;
